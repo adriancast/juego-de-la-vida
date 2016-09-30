@@ -15,7 +15,15 @@ public class JuegoDeLaVida {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        JuegoDeLaVida inicio = new JuegoDeLaVida();
+        inicio.inicio();
+    }
+    
+    
+    private void inicio(){
+        
+        Mundo mundo = new Mundo();
+    
     }
     
 }
